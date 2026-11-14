@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 14 November 2026
+
+- The app now opens maximized. Un-maximize it to use it as a small window beside the game.
+- Fixed the level selector, where the number was squeezed and hard to read.
+- Fixed quest names showing in yellow instead of the normal text colour.
+
 ## 1.0.1 — 14 November 2026
 
 Testing auto-update feature.
