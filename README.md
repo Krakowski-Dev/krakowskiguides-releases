@@ -6,6 +6,10 @@ A leveling tracker for WoW Forever (Horde) on Windows: what to quest next, the f
 
 ## Changelog
 
+### 1.1.1 — 14 November 2026
+
+- The "Install addon into WoW" button is now also on the front page, in the Desktop app panel, so you don't have to go to the Character page to find it.
+
 ### 1.1.0 — 14 November 2026
 
 #### New: Dungeons page
