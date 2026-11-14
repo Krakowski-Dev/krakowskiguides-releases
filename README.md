@@ -6,6 +6,18 @@ A leveling tracker for WoW Forever (Horde) on Windows: what to quest next, the f
 
 ## Changelog
 
+### 1.2.0 — 14 November 2026
+
+- **Upgrades from dungeons.** The Character page now lists dungeon boss drops with a higher item level than what you are wearing, slot by slot, with the dungeon and boss that drops each one. It only shows items your class can use and that you can equip within two levels. Covers 274 drops from 16 dungeons, up to the mid-40s.
+- **Dungeon quest rewards count as upgrades too.** The same list now also suggests gear you get from dungeon quests, marked "Quest:" with the quest name and "pick one" where the quest lets you choose. Covers 84 rewards from 37 Horde quests in 15 dungeons. The Dungeons page lists the same rewards under each quest; ones your class cannot use are dimmed.
+- **Auction house prices.** The addon now records the lowest buyout it sees while you have the auction house open, from your own searches or from the new **KG Scan** button next to KG Save. It only reads prices; it never bids, buys or posts. After KG Save, the Gold page lists your sellable bag items with "auction", "vendor" or "keep", the price each and the total, and shows whether a price rose or fell since the last day you scanned. Prices are your realm's, as fresh as your last visit. New and untested in game: if KG Scan reports that the game refused the scan, your own searches are still recorded.
+- **Update the addon for this:** the addon now also records item levels. Click "Install addon into WoW" again, restart the game and press KG Save. Until then only empty gear slots get suggestions.
+- **The window remembers itself.** The app reopens at the size and position you left it, maximized or not. The first launch is still maximized.
+- **Quests are matched by their game ID.** The addon now also sends the ID of every quest you completed or have in your log, and the app ticks exactly that quest. Before, two quests with the same name in different zones were both ticked. If your last addon save is from an older version, the app still matches by name until you save again. Click "Install addon into WoW" again, restart the game and press KG Save to get this.
+- **Full quest chains.** For 63 of the 198 quest chains the list now shows every quest of the chain in order: click "chain: 0/3 done" under a quest. Tick the steps one by one, or tick the quest to tick them all; the quest counts as done when all its steps are. The addon ticks steps by itself. The other chains still show "+N follow-ups" and you tick the quest yourself when the chain is done, because no step list that agreed with the route data was available for them.
+- **"Do next" is now a walking route.** Inside each zone the quests are grouped by quest hub (givers standing close together), each hub is named after its main quest giver with coordinates, and the hubs are ordered so you walk from one to the nearest next one. Where the quest is handed in somewhere else, the row says "turn in at" with the place and coordinates (about 40% of the quests have that; the rest are handed in to the giver or the place is unknown).
+- **Trainer reminder.** At every even level "Do next" reminds you to visit your class trainer.
+
 ### 1.1.1 — 14 November 2026
 
 - The "Install addon into WoW" button is now also on the front page, in the Desktop app panel, so you don't have to go to the Character page to find it.
