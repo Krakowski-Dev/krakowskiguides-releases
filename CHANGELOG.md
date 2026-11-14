@@ -1,5 +1,36 @@
 # Changelog
 
+## 1.1.0 — 14 November 2026
+
+### New: Dungeons page
+
+- All 33 dungeons in level order, each with its level range and the level it is best run at.
+- A "Run now" line shows which dungeons fit your current level, and each dungeon is marked ideal now, in range, or outleveled.
+- Every dungeon lists the quests tied to it: where to pick each one up, what it asks for, and how many quests you need to finish first. Tick them off as you go.
+- Bosses in order, plus where the entrance is.
+- Alcaz Prison, Blackmaw Hold and Shaper's Terrace are listed but have no quest or boss details yet.
+
+### New: Character page
+
+- Shows what the addon recorded about your character: gear by slot (coloured by quality, hover for the item tooltip), stats, experience and rested XP, gold, skills and reputation.
+- Needs the updated addon, see below.
+
+### Addon
+
+- **One-click install.** A new "Install addon into WoW" button copies the addon into your game folder for you.
+- **Clear setup steps.** The Character page now has a five-step guide, from installing the addon to the first sync.
+- **"KG Save" button in game.** A small button at the top of the screen saves your character for the app with one click (it reloads the UI, which takes a few seconds). Drag it anywhere; `/kg button` hides or shows it. It only acts when you click it and does nothing in combat.
+- **The addon reads more.** It now also records gear, stats, experience, skills, reputation, guild and realm. It is still read-only and never does anything for you in game.
+- **Update the addon after updating the app:** click "Install addon into WoW" again, then restart the game. The old addon keeps working for quests and bags, but the Character page stays empty until you do.
+
+### How current is the data?
+
+The app updates each time you click KG Save, reload the UI or log out. Addons cannot send data out of the game while you play, so it is not a second-by-second feed.
+
+### Other
+
+- The page tabs now wrap onto two rows in a narrow window.
+
 ## 1.0.2 — 14 November 2026
 
 - The app now opens maximized. Un-maximize it to use it as a small window beside the game.
