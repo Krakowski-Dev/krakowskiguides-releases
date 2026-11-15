@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.0 — 15 November 2026
+
+- **New look.** Softer and calmer: rounded panels separated by tone instead of heavy outlines, no more hard shadows or slanted labels, and sentence-case headings in place of the all-caps block letters.
+- **Navigation on the side.** In a wide window the pages and your character (level, race, class, spec, progress) sit in a column on the left and stay put while you scroll. In a small window beside the game they fold into a top bar with scrolling tabs.
+- **Settings page.** Backups, always on top, the addon file and updates moved to their own page. The Quests page keeps a slim line with the addon status, "Install addon into WoW" and "Sync from addon".
+- **Bag glow for items worth auctioning.** In game, bag items that sell for more at the auction house than at a vendor now glow teal, a different colour from the yellow quest-item glow. It uses the prices from KG Scan or your own searches, so it shows nothing until the addon has seen prices. `/kg glow` switches it off or on. It works on the game's own bags, not on bag addons.
+- **Only gear and crafting materials count.** The glow and the Gold page's "auction or vendor" list now skip grey items, food and drink (including conjured mage food), potions, quest items and anything soulbound.
+- **Update the addon for these two:** click "Install addon into WoW" again and restart the game.
+- **Smoother.** Pages cross-fade when you switch, lists ease open, and progress bars glide.
+
 ## 1.2.0 — 14 November 2026
 
 - **Upgrades from dungeons.** The Character page now lists dungeon boss drops with a higher item level than what you are wearing, slot by slot, with the dungeon and boss that drops each one. It only shows items your class can use and that you can equip within two levels. Covers 274 drops from 16 dungeons, up to the mid-40s.
